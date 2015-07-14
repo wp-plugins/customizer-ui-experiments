@@ -1,0 +1,33 @@
+/**
+ * Adaptive Width Component
+ *
+ * Adapted from https://core.trac.wordpress.org/attachment/ticket/32296/32296.diff
+ */
+
+/* Modify in src/wp-admin/css/themes.css:1298 (same selector, where width: 300px is currently defined) */
+.wp-full-overlay-sidebar {
+	min-width: 300px;
+	max-width: 600px;
+	width: 18%;
+}
+
+/* Add to src/wp-admin/css/themes.css */
+@media screen and (min-width: 1667px) {
+	.wp-full-overlay.expanded {
+		margin-left: 18%;
+	}
+
+	.wp-full-overlay.collapsed .wp-full-overlay-sidebar {
+		margin-left: -18%;
+	}
+}
+
+@media screen and (min-width: 3333px) {
+	.wp-full-overlay.expanded {
+		margin-left: 600px;
+	}
+
+	.wp-full-overlay.collapsed .wp-full-overlay-sidebar {
+		margin-left: -600px;
+	}
+}
