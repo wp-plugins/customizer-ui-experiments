@@ -3,7 +3,7 @@
  * Plugin Name: Customizer UI Experiments
  * Plugin URI: http://wordpress.org/plugins/customizer-ui-experiments
  * Description: Bringing themes and the Customizer together.
- * Version: 0.0
+ * Version: 0.1
  * Author: The Customizer Team
  * Author URI: https://wordpress.slack.com/messages/core-customize/
  * Tags: themes, customizer, theme customizer
@@ -32,4 +32,6 @@ add_action( 'customize_controls_enqueue_scripts', 'customizer_ui_experiments_enq
 function customizer_ui_experiments_enqueue() {
 	wp_enqueue_style( 'customize-ui-adaptive-width', plugin_dir_url( __FILE__ ) . '/components/adaptive-width.css' );
 	wp_enqueue_style( 'customize-ui-better-contrast-focus', plugin_dir_url( __FILE__ ) . '/components/better-contrast-focus.css' );
+	wp_enqueue_style( 'customize-ui-device-preview', plugin_dir_url( __FILE__ ) . '/components/device-preview.css' );
+	wp_enqueue_script( 'customize-ui-device-preview', plugin_dir_url( __FILE__ ) . '/components/device-preview.js', array( 'jquery' ) );
 }
