@@ -1,0 +1,79 @@
+/**
+ * Better Contrast and Visual Focus Component (#29158)
+ *
+ * Adapted from https://core.trac.wordpress.org/attachment/ticket/29158/29158.borders.diff
+ */
+
+#customize-controls .customize-info {
+	border-top: none;
+}
+
+#customize-controls .control-section:hover > .accordion-section-title,
+#customize-controls .control-section .accordion-section-title:hover,
+#customize-controls .control-section.open .accordion-section-title,
+#customize-controls .control-section .accordion-section-title:focus {
+	color: #191e23;
+	background: #f5f5f5;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin-top: -1px;
+}
+
+.in-sub-panel #customize-theme-controls > ul > .control-section:hover > .accordion-section-title,
+.in-sub-panel #customize-theme-controls > ul > .control-section.open > .accordion-section-title,
+.in-themes-panel #customize-controls .control-section:hover > .accordion-section-title {
+	margin-top: 0;
+}
+
+#accordion-section-themes + .control-section {
+	border-top: 1px solid #ddd;
+}
+
+#customize-theme-controls .control-section:hover > .accordion-section-title:after,
+#customize-theme-controls .control-section .accordion-section-title:hover:after,
+#customize-theme-controls .control-section.open .accordion-section-title:after,
+#customize-theme-controls .control-section .accordion-section-title:focus:after {
+	content: "\f344";
+	right: 14px;
+}
+
+#customize-controls .panel-meta.customize-info .accordion-section-title:hover {
+	border-top: none;
+	border-bottom: none;
+	margin-top: 0;
+}
+
+.customize-panel-back:hover,
+.customize-panel-back:focus,
+.customize-section-back:hover,
+.customize-section-back:focus {
+	border-right: 1px solid #ccc;
+}
+
+.customize-panel-back:hover:before,
+.customize-panel-back:focus:before,
+.customize-section-back:hover:before,
+.customize-section-back:focus:before {
+	content: "\f340";
+	left: 17px;
+}
+
+#customize-theme-controls .control-section-themes .accordion-section-title:hover, /* Not a focusable element. */
+#customize-theme-controls .control-section-themes .accordion-section-title {
+	cursor: default;
+	background: #fff;
+	color: #555;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin-top: 0;
+}
+
+#customize-theme-controls .control-section-themes .customize-themes-panel .accordion-section-title:first-child:hover, /* Not a focusable element. */
+#customize-theme-controls .control-section-themes .customize-themes-panel .accordion-section-title:first-child {
+	border-top: 0;
+}
+
+#customize-theme-controls .control-section-themes > .accordion-section-title:hover, /* Not a focusable element. */
+#customize-theme-controls .control-section-themes > .accordion-section-title {
+	margin: 15px 0;
+}

@@ -1,5 +1,5 @@
 === Customizer UI Experiments ===
-Contributors: celloexpressions, voldemortensen wordpressdotorg
+Contributors: celloexpressions, voldemortensen, wordpressdotorg
 Tags: customizer, customize
 Requires at least: 4.2
 Tested up to: 4.3
@@ -12,6 +12,7 @@ This plugin is an ongoing WordPress core feature-plugin that facilitates testing
 
 Current components included:
 - Adaptive width: make the Customizer proportionally larger on very large screens. <a href="https://core.trac.wordpress.org/ticket/32296">#32296</a>
+- Better Contrast & Focus: improve color contrast, visual focus indicators, and audit the use of borders within the Customizer UI. <a href="https://core.trac.wordpress.org/ticket/29158">#29158</a>
 
 If you're interested in contributing to this project, join the #core-customize or #design channels in <a href="http://chat.wordpress.org/">WordPress core Slack</a>.
 
@@ -24,14 +25,21 @@ If you're interested in contributing to this project, join the #core-customize o
 
 == Screenshots ==
 1. Adaptive width component on a ~2100px wide screen.
+2. Better Contrast and Focus component.
 
 == Changelog ==
 See full details here: https://plugins.trac.wordpress.org/log/customizer-ui-experiments.
+
+= 0.1 =
+* Added the Better Contrast and Focus component
 
 = 0.0 =
 * Initial commit.
 * Includes the adaptive width component.
 
 == Upgrade Notice ==
+= 0.1 =
+* Added the Better Contrast and Focus component
+
 = 0.0 =
 * Initial commit.
