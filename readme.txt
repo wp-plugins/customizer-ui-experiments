@@ -11,9 +11,11 @@ License: GPLv2
 This plugin is an ongoing WordPress core feature-plugin that facilitates testing smaller user-oriented features and changes proposed in core trac tickets. Components are added, modified, and eventually removed as ideas are first proposed, iterated on, and eventually accepted and patch-ified.
 
 Current components included:
-- Adaptive width: make the Customizer proportionally larger on very large screens. <a href="https://core.trac.wordpress.org/ticket/32296">#32296</a>
-- Better Contrast & Focus: improve color contrast, visual focus indicators, and audit the use of borders within the Customizer UI. <a href="https://core.trac.wordpress.org/ticket/29158">#29158</a>
-- Device Preview: adds buttons that allow users to quickly preview and customize their site on mobile and tablet-sized devices. <a href="https://core.trac.wordpress.org/ticket/31195">#31195</a>
+* Adaptive width: make the Customizer proportionally larger on very large screens. <a href="https://core.trac.wordpress.org/ticket/32296">#32296</a>
+
+* Better Contrast & Focus: improve color contrast, visual focus indicators, and audit the use of borders within the Customizer UI. <a href="https://core.trac.wordpress.org/ticket/29158">#29158</a>
+
+* Device Preview: adds buttons that allow users to quickly preview and customize their site on mobile and tablet-sized devices. <a href="https://core.trac.wordpress.org/ticket/31195">#31195</a>
 
 If you're interested in contributing to this project, join the #core-customize or #design channels in <a href="http://chat.wordpress.org/">WordPress core Slack</a>.
 
