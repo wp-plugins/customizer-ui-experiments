@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Customizer UI Experiments
  * Plugin URI: http://wordpress.org/plugins/customizer-ui-experiments
- * Description: Bringing themes and the Customizer together.
+ * Description: Testing ground for UI and UX changes and features proposed for the Customizer.
  * Version: 0.1
  * Author: The Customizer Team
  * Author URI: https://wordpress.slack.com/messages/core-customize/
